@@ -1,0 +1,76 @@
+body {
+    background-image: url('Imagenes/FondoCumple.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+}
+
+#titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    color: #ff69b4;
+    text-shadow: 2px 2px 4px black;
+    -webkit-text-stroke: 2px black;
+}
+
+#lblCompleanno {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #ff1493;
+    margin-top: 5%;
+    display: none;
+    transition: color 0.4s;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+button {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+button img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+button img:hover {
+    transform: scale(1.05);
+}
+
+#comunismo {
+    max-width: 250px;
+    height: auto;
+    display: none;
+    margin-top: -25%;
+}
+
+
+@media (max-width: 692px) {
+    #titulo {
+        font-size: 2rem;
+    }
+
+    button img {
+        height: 220px;
+    }
+
+    #lblCompleanno {
+        font-size: 4.2rem;
+    }
+
+    #comunismo {
+        max-width: 180px;
+        margin-top: 10%;
+    }
+}
