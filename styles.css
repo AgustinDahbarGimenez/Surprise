@@ -23,7 +23,6 @@ body {
     font-family: 'Sacramento', cursive;
     font-size: 5rem;
     color: #ff1493;
-    margin-top: 5%;
     display: none;
     transition: color 0.4s;
     text-shadow: 2px 2px 4px black;
@@ -48,10 +47,55 @@ button img:hover {
 #comunismo {
     max-width: 250px;
     height: auto;
-    display: none;
     margin-top: -25%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s ease;
+    pointer-events: none;
+    border: 6px solid white;
 }
 
+#comunismo.show {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#linkingpark {
+    max-width: 250px;
+    height: auto;
+    margin-top: -25%;
+    margin-left: 80%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s ease;
+    pointer-events: none;
+}
+
+#linkingpark.show {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#btnConfetti {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 8%;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+#btnConfetti:hover {
+    transform: scale(1.1);
+    background-color: #ff1493;
+}
 
 @media (max-width: 692px) {
     #titulo {
