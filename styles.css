@@ -127,11 +127,7 @@ button img:hover {
     {
         max-width: 250px;
         height: 150px;
-<<<<<<< HEAD
-        margin-top: -40%;
-=======
-        margin-top: -46%;
->>>>>>> 4bbe685908889af115b1fbc1c199014d4d7fbaf5
+        margin-top:-45%;
         margin-left:60%;
         transform: scale(0.5);
         transition: all 1s ease;
