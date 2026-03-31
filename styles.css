@@ -117,6 +117,19 @@ button img:hover {
         margin-top: 5%;
     }
 
+    #linkingpark {
+    max-width: 250px;
+    height: 150px;
+    margin-top: -50%;
+    margin-left:60%;
+    transform: scale(0.5);
+    transition: all 1s ease;
+    }
+
+    #btnConfetti {
+    margin-top:-10%;
+}
+
     .mobile-break {
         display: block; /* esto actúa como un <br> */
     }
