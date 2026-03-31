@@ -1,4 +1,4 @@
-let musica = new Audio("musica.mp3"); // Poné tu archivo de música en la carpeta
+let musica = new Audio("TantiAuguri.mp3"); // Poné tu archivo de música en la carpeta
 
 function lanzarConfetti() {
     let duration = 1500;
