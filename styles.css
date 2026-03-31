@@ -128,7 +128,7 @@ button img:hover {
     {
         max-width: 250px;
         height: 150px;
-        margin-top: -60%;
+        margin-top: -46%;
         margin-left:60%;
         transform: scale(0.5);
         transition: all 1s ease;
@@ -136,7 +136,7 @@ button img:hover {
 
     #btnConfetti 
     {
-    margin-top:-10%;
+    margin-top:-16%;
     }
 
     .mobile-break 
