@@ -133,9 +133,20 @@ button img:hover {
         transition: all 1s ease;
     }
 
-    #btnConfetti 
-    {
-    margin-top:-40px;
+    #btnConfetti {
+    width: 50px;        /* ancho */
+    height: 50px;       /* alto (igual que el ancho para que sea círculo) */
+    border-radius: 50%; /* lo hace circular */
+    font-size: 14px;    /* tamaño del texto/emojis */
+    padding: 0;         /* evita que crezca raro */
+    cursor: pointer;
+    }
+
+    #contenedorConfetti{
+        display: flex;
+        position: absolute;
+        left:80%;
+        top:34%;
     }
 
     .mobile-break 
