@@ -1,4 +1,5 @@
-body {
+body 
+{
     background-image: url('Imagenes/FondoCumple.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,41 +98,49 @@ button img:hover {
     background-color: #ff1493;
 }
 
-@media (max-width: 692px) {
-    #titulo {
+@media (max-width: 692px) 
+{
+    #titulo 
+    {
         font-size: 2rem;
     }
 
-    button img {
+    button img 
+    {
         height: 220px;
     }
 
     #lblCompleanno {
         font-size: 2.6rem;
         margin-top: 8%;
+        margin-top: 4%;
         text-shadow: 1px 1px 2px black;
     }
 
-    #comunismo {
+    #comunismo 
+    {
         max-width: 180px;
-        margin-top: 5%;
+        margin-top: -5%;
+        border: 6px solid white;
     }
 
-    #linkingpark {
-    max-width: 250px;
-    height: 150px;
-    margin-top: -50%;
-    margin-left:60%;
-    transform: scale(0.5);
-    transition: all 1s ease;
+    #linkingpark 
+    {
+        max-width: 250px;
+        height: 150px;
+        margin-top: -60%;
+        margin-left:60%;
+        transform: scale(0.5);
+        transition: all 1s ease;
     }
 
-    #btnConfetti {
+    #btnConfetti 
+    {
     margin-top:-10%;
-}
+    }
 
-    .mobile-break {
+    .mobile-break 
+    {
         display: block; /* esto actúa como un <br> */
     }
-
 }

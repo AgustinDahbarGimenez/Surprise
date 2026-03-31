@@ -5,8 +5,8 @@ let timeoutAnimacion;
 let musica = new Audio("TantiAuguri.mp3"); // Poné tu archivo de música en la carpeta
 
 function lanzarConfetti() {
-    let duration = 1500;
-    let end = Date.now() + duration;
+    let duracion = 1500; //secondo e mezzo di durata
+    let fin = Date.now() + duracion;
 
     (function frame() {
         confetti({
@@ -15,7 +15,7 @@ function lanzarConfetti() {
             origin: { y: 0.6 }
         });
 
-        if (Date.now() < end) {
+        if (Date.now() < fin) {
             requestAnimationFrame(frame);
         }
     })();
@@ -60,7 +60,7 @@ async function mostrarMensaje() {
     const linkingpark = document.getElementById('linkingpark');
     const contenedorConfetti = document.getElementById('contenedorConfetti');
 
-    // 🔒 CONTROL: evita múltiples ejecuciones
+    // evitamos múltiples ejecuciones
     if (!visible) {
         visible = true;
 
@@ -89,7 +89,7 @@ async function mostrarMensaje() {
 
     } else {
 
-        // 🔥 RESET TOTAL
+        // RESET TOTAL
 
         musica.pause();
         musica.currentTime = 0;
