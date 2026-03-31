@@ -80,10 +80,10 @@ button img:hover {
 }
 
 #btnConfetti {
-    padding: 10px 20px;
+    padding: 8px 14px;
     font-size: 1.2rem;
     border-radius: 10px;
-    border: none;
+    border: 2px solid black;
     background-color: #ff69b4;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -112,8 +112,7 @@ button img:hover {
 
     #lblCompleanno {
         font-size: 2.6rem;
-        margin-top: 8%;
-        margin-top: 4%;
+        margin-top: 16%;
         text-shadow: 1px 1px 2px black;
     }
 
@@ -128,7 +127,11 @@ button img:hover {
     {
         max-width: 250px;
         height: 150px;
+<<<<<<< HEAD
         margin-top: -40%;
+=======
+        margin-top: -46%;
+>>>>>>> 4bbe685908889af115b1fbc1c199014d4d7fbaf5
         margin-left:60%;
         transform: scale(0.5);
         transition: all 1s ease;
@@ -136,7 +139,7 @@ button img:hover {
 
     #btnConfetti 
     {
-    margin-top:-10%;
+    margin-top:-40px;
     }
 
     .mobile-break 
