@@ -19,7 +19,7 @@ function lanzarConfetti() {
 
 function cambiarColor() {
     const lbl = document.getElementById('lblCompleanno');
-    const colores = ["#ff1493", "#ff69b4", "#ffa500", "#00bfff", "rgb(126, 75, 230)"];
+    const colores = ["#ff1493", "#ff69b4", "#ffa500", "rgb(0, 4, 255)", "rgb(126, 75, 230)"];
     let i = 0;
 
     setInterval(() => {
