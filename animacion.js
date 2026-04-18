@@ -58,6 +58,7 @@ async function mostrarMensaje() {
     const titulo = document.getElementById('titulo');
     const logo = document.getElementById('comunismo');
     const linkingpark = document.getElementById('linkingpark');
+    const lafamilia = document.getElementById('lafamilia');
     const contenedorConfetti = document.getElementById('contenedorConfetti');
 
     // evitamos múltiples ejecuciones
@@ -77,15 +78,19 @@ async function mostrarMensaje() {
         await escribirTexto("Sei geniale...", mensaje);
         await escribirTexto("Non dubitarne mai.", mensaje);
 
-        setTimeout(() => {
-            contenedorConfetti.style.display = 'block';
-        }, 1500);
-
         logo.classList.add("show");
 
         setTimeout(() => {
             linkingpark.classList.add("show");
         }, 800);
+
+        setTimeout(() => {
+            lafamilia.classList.add("show");
+        }, 1400);
+
+        setTimeout(() => {
+            contenedorConfetti.style.display = 'block';
+        }, 3800);
 
     } else {
 
@@ -101,6 +106,7 @@ async function mostrarMensaje() {
 
         logo.classList.remove("show");
         linkingpark.classList.remove("show");
+        lafamilia.classList.remove("show");
 
         clearInterval(intervaloColor);
         clearTimeout(timeoutLinking);

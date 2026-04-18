@@ -48,12 +48,14 @@ button img:hover {
 #comunismo {
     max-width: 250px;
     height: auto;
-    margin-top: -25%;
     opacity: 0;
     transform: scale(0.5);
     transition: all 1s ease;
     pointer-events: none;
     border: 6px solid white;
+    display:flex;
+    position: absolute;
+    bottom:60%;
 }
 
 #comunismo.show {
@@ -65,8 +67,10 @@ button img:hover {
 #linkingpark {
     max-width: 250px;
     height: auto;
-    margin-top: -25%;
-    margin-left: 80%;
+    display:flex;
+    position: absolute;
+    bottom:50%;
+    right:10%;
     opacity: 0;
     transform: scale(0.5);
     transition: all 1s ease;
@@ -74,6 +78,26 @@ button img:hover {
 }
 
 #linkingpark.show {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+#lafamilia {
+    max-width: 250px;
+    height: auto;
+    display:flex;
+    position: absolute;
+    bottom:10%;
+    right:10%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s ease;
+    pointer-events: none;
+}
+
+#lafamilia.show {
     display: block;
     opacity: 1;
     transform: scale(1);
@@ -88,9 +112,15 @@ button img:hover {
     color: white;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    margin-top: 8%;
     transform: translateY(20px);
     transition: all 0.5s ease;
+}
+
+#contenedorconfetti
+{
+    display:flex;
+    position:absolute;
+    justify-content: center;
 }
 
 #btnConfetti:hover {
