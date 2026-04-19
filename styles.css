@@ -172,11 +172,11 @@ button img:hover {
 
     #comunismo 
     {
-        width:24%;
-        height:12%;
+        width:22%;
+        height:10%;
         display:flex;
         position: absolute;
-        top:40.5%;
+        top:41.5%;
         left:3%;
         border: 1px solid white;
     }
