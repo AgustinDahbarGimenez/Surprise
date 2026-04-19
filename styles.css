@@ -83,7 +83,6 @@ button img:hover {
     transform: scale(1);
 }
 
-
 #lafamilia {
     max-width: 250px;
     height: auto;
@@ -95,9 +94,30 @@ button img:hover {
     transform: scale(0.5);
     transition: all 1s ease;
     pointer-events: none;
+    border: 6px solid white;
 }
 
 #lafamilia.show {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#treptower {
+    max-width: 250px;
+    height: auto;
+    display:flex;
+    position: absolute;
+    bottom:20%;
+    left:10%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s ease;
+    pointer-events: none;
+    border: 6px solid white;
+}
+
+#treptower.show {
     display: block;
     opacity: 1;
     transform: scale(1);

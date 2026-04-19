@@ -59,6 +59,7 @@ async function mostrarMensaje() {
     const logo = document.getElementById('comunismo');
     const linkingpark = document.getElementById('linkingpark');
     const lafamilia = document.getElementById('lafamilia');
+    const treptower = document.getElementById('treptower');
     const contenedorConfetti = document.getElementById('contenedorConfetti');
 
     // evitamos múltiples ejecuciones
@@ -86,11 +87,15 @@ async function mostrarMensaje() {
 
         setTimeout(() => {
             lafamilia.classList.add("show");
-        }, 1400);
+        }, 1600);
+
+        setTimeout(() => {
+            treptower.classList.add("show");
+        }, 2400);
 
         setTimeout(() => {
             contenedorConfetti.style.display = 'block';
-        }, 3800);
+        }, 3200);
 
     } else {
 
@@ -107,6 +112,7 @@ async function mostrarMensaje() {
         logo.classList.remove("show");
         linkingpark.classList.remove("show");
         lafamilia.classList.remove("show");
+        treptower.classList.remove("show");
 
         clearInterval(intervaloColor);
         clearTimeout(timeoutLinking);
