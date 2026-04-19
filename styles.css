@@ -172,17 +172,47 @@ button img:hover {
 
     #comunismo 
     {
-        max-width: 180px;
-        margin-top: -5%;
-        border: 6px solid white;
+        width:24%;
+        height:12%;
+        display:flex;
+        position: absolute;
+        top:40.5%;
+        left:3%;
+        border: 1px solid white;
     }
 
     #linkingpark 
     {
-        max-width: 250px;
-        height: 150px;
-        margin-top:-45%;
-        margin-left:60%;
+        width:20%;
+        height:14%;
+        display:flex;
+        position: absolute;
+        top:41%;
+        right:4%;
+        transform: scale(0.5);
+        transition: all 1s ease;
+    }
+
+    #lafamilia 
+    {
+        width:45%;
+        height:25%;
+        display:flex;
+        position: absolute;
+        bottom:16%;
+        right:4%;
+        transform: scale(0.5);
+        transition: all 1s ease;
+    }
+
+    #treptower 
+    {
+        width:45%;
+        height:25%;
+        display:flex;
+        position: absolute;
+        bottom:16%;
+        left:4%;
         transform: scale(0.5);
         transition: all 1s ease;
     }
@@ -191,17 +221,13 @@ button img:hover {
     {
     width: 50px;        /* ancho */
     height: 50px;       /* alto (igual que el ancho para que sea círculo) */
+    display:flex;
+    position:absolute;
+    bottom:10%;
+    left:48%;
     border-radius: 50%; /* lo hace circular */
     font-size: 14px;    /* tamaño del texto/emojis */
-    padding: 0;         /* evita que crezca raro */
     cursor: pointer;
-    }
-
-    #contenedorConfetti{
-        display: flex;
-        position: absolute;
-        left:80%;
-        top:34%;
     }
 
     .mobile-break 
