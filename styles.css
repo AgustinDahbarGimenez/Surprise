@@ -134,6 +134,10 @@ button img:hover {
     cursor: pointer;
     transform: translateY(20px);
     transition: all 0.5s ease;
+    display:flex;
+    position: absolute;
+    bottom:10%;
+    left:48%;
 }
 
 #contenedorconfetti
@@ -183,7 +187,8 @@ button img:hover {
         transition: all 1s ease;
     }
 
-    #btnConfetti {
+    #btnConfetti 
+    {
     width: 50px;        /* ancho */
     height: 50px;       /* alto (igual que el ancho para que sea círculo) */
     border-radius: 50%; /* lo hace circular */
