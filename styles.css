@@ -167,7 +167,7 @@ button img:hover {
 #treptower 
     {
         width:45%;
-        height:25%;
+        height:15%;
         display:flex;
         position: absolute;
         top:90%;
@@ -224,7 +224,7 @@ button img:hover {
     #lafamilia 
     {
         width:45%;
-        height:25%;
+        height:15%;
         display:flex;
         position: absolute;
         top:90%;
@@ -239,7 +239,7 @@ button img:hover {
     display:flex;
     position:absolute;
     justify-content: center;
-    bottom:-10%;
+    bottom:-26%;
     left:46%;
     }
 
