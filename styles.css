@@ -155,6 +155,15 @@ button img:hover {
 @media (max-width: 692px) 
 {
 
+    .torta
+    {
+        margin-bottom:0px;
+    }
+    
+    #lblCompleanno
+    {
+        margin-top:-20%;
+    }
 #treptower 
     {
         width:45%;
@@ -230,7 +239,7 @@ button img:hover {
     display:flex;
     position:absolute;
     justify-content: center;
-    bottom:-26%;
+    bottom:-10%;
     left:46%;
     }
 
