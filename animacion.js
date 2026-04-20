@@ -126,3 +126,8 @@ function masConfetti() {
     lanzarConfetti();
 }
 
+function ocultarImagen(id) {
+    const img = document.getElementById(id);
+    img.classList.remove("show");
+}
+

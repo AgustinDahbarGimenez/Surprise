@@ -52,7 +52,6 @@ button img:hover {
     opacity: 0;
     transform: scale(0.5);
     transition: all 1s ease;
-    pointer-events: none;
     border: 6px solid white;
     display:flex;
     position: absolute;
@@ -75,7 +74,6 @@ button img:hover {
     opacity: 0;
     transform: scale(0.5);
     transition: all 1s ease;
-    pointer-events: none;
 }
 
 #linkingpark.show {
@@ -94,7 +92,6 @@ button img:hover {
     opacity: 0;
     transform: scale(0.5);
     transition: all 1s ease;
-    pointer-events: none;
     border: 6px solid white;
 }
 
@@ -113,7 +110,6 @@ button img:hover {
     opacity: 0;
     transform: scale(0.5);
     transition: all 1s ease;
-    pointer-events: none;
     border: 6px solid white;
 }
 
