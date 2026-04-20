@@ -167,7 +167,7 @@ button img:hover {
 #treptower 
     {
         width:45%;
-        height:15%;
+        height:25%;
         display:flex;
         position: absolute;
         top:90%;
@@ -224,7 +224,7 @@ button img:hover {
     #lafamilia 
     {
         width:45%;
-        height:15%;
+        height:25%;
         display:flex;
         position: absolute;
         top:90%;
@@ -239,8 +239,8 @@ button img:hover {
     display:flex;
     position:absolute;
     justify-content: center;
-    bottom:-26%;
-    left:46%;
+    top:10%;
+    left:6%;
     }
 
     #btnConfetti 
